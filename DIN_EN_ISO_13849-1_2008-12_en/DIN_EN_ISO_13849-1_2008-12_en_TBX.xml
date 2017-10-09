@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE adoption
   PUBLIC "-//NISO//DTD NISO STS Interchange Tag Set (NISO STS) DTD with MathML 3.0 v0.2 20170331//EN" "NISO-STS-interchange-1-mathml3.dtd">
+<?xml-model href="../../sts4i-tools/schematron/NISOSTS_lib.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <adoption xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:tbx="urn:iso:std:iso:30042:ed-1"
   xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en">
   <adoption-front>
@@ -4438,7 +4439,8 @@
                           </mml:mstyle>
                         </mml:msub>
                       </mml:math></inline-formula> of each channel and PL</title>
-                  <p><def-list list-type="key">
+                </caption>
+                <def-list list-type="key">
                       <title>Key</title>
                       <def-item>
                         <term>PL</term>
@@ -4497,8 +4499,7 @@
                               </mml:math></inline-formula> high</p>
                         </def>
                       </def-item>
-                    </def-list></p>
-                </caption>
+                    </def-list>
                 <graphic xlink:href="e1d18be9.005.gif">
                   <object-id pub-id-type="fpi">+//ISO 9070/RA::A00007::GE::DIN German Institute for
                     Standardization::Standards//NONSGML ISO 13849-1:2006-11-00::Figure 5//EN</object-id>
